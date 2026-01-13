@@ -9,7 +9,7 @@ import { useState , useEffect } from 'react';
 
 
 // Create a socket connection to our backend
-const server = "http://localhost:5000";
+const server = "https://realtime-collaboration-board.onrender.com";
 const connectionOptions = {
 
   "force new connection": true,
